@@ -46,6 +46,7 @@ getgenv().Vax = {
         ["DisableOnPlayerDeath"] = true, --// disable lock on SELF death
         ["CheckKoStatus"] = true, --// grabbed / knocked check
         ["AntiGroundShots"] = true, 
+        ["HoodCustomBypass"] = false, --// dont use on other games
     },
     Sorting = {
         ['Enabled'] = false,
