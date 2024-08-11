@@ -1,7 +1,3 @@
-
-
-script_key="replacekeyhere";
-getgenv().vax_script_key = script_key; --// dont touch
 -- [[ @networksleeper (xu) Was Here ]]
 -- [[ vaxvaxvaxvaxvaxvaxvax ]]
 -- [[ Update Log : ]]
@@ -14,7 +10,7 @@ getgenv().vax_script_key = script_key; --// dont touch
 
 -- Note : Camera Breaks On Inject So U Have to RESET Ur Character
 -- Note : put ur key where it says keyhere dont be dumb pls
-
+script_key="replacekeyhere";
 getgenv().vax_script_key = script_key; --// dont touch
 getgenv().Vax = {
     Settings = {
