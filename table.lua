@@ -1,3 +1,7 @@
+
+
+script_key="replacekeyhere";
+getgenv().vax_script_key = script_key; --// dont touch
 -- [[ @networksleeper (xu) Was Here ]]
 -- [[ vaxvaxvaxvaxvaxvaxvax ]]
 -- [[ Update Log : ]]
@@ -11,7 +15,6 @@
 -- Note : Camera Breaks On Inject So U Have to RESET Ur Character
 -- Note : put ur key where it says keyhere dont be dumb pls
 
-script_key="replacekeyhere";
 getgenv().vax_script_key = script_key; --// dont touch
 getgenv().Vax = {
     Settings = {
@@ -19,13 +22,13 @@ getgenv().Vax = {
 
         IntroSettings = {
             ['Intro'] = true,
-            ['IntroID'] = "rbxassetid://18889473560" -- change this for videos and your blacklisted
+            ['IntroID'] = "rbxassetid://17153193674" -- change this for videos and your blacklisted
         },
     },
     Target = {
         ["Keybind"] = Enum.KeyCode.C,
         ["Camlock"] = 0.39, --// camlock prediction
-        ["SilentPred"] = 0.13, --// silent aim prediction
+        ["SilentPred"] = 0.11614, --// silent aim prediction    30-40 = 0.11614 / 50-60 = 0.11769, ask in server for pred list.
         ["Resolver"] = true, --// resolver
     
         ["Enabled"] = true,
@@ -36,17 +39,13 @@ getgenv().Vax = {
         ["Shake"] = 0,
     
         ["Smoothing"] = 0.023949392, --// aimlock smoothing. ( lower the number = higher smoothness)
-        ["JumpOffset"] = 1.65,
+        ["JumpOffset"] = 0,
     },
     Checks = {
         ["DisableOnTargetDeath"] = true, --// disable on targets death
         ["DisableOnPlayerDeath"] = true, --// disable lock on SELF death
         ["CheckKoStatus"] = true, --// grabbed / knocked check
         ["AntiGroundShots"] = true, 
-    },
-    AntiLock = {
-        ["Key"] = Enum.KeyCode.M, --// Expample Binds are P,Q,Z,L,Y.
-        ["Enabled"] = true,
     },
     Sorting = {
         ['Enabled'] = false,
